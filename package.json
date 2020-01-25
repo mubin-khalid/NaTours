@@ -1,0 +1,20 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Natours responsive web design.",
+  "homepage": "https://mubin-khalid.github.io/NaTours",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass sass/style.scss css/style.css -w",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "Mubin",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  },
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
